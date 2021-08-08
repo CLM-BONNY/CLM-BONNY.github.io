@@ -1,0 +1,8 @@
+locale: "en-US"
+title: "MS"
+title_seperator: "-"
+subtitle: MSsite
+name: "MinSeon"
+description: "MinSeon Site"
+url: "https://minseon6371.github.io/"
+baseurl: ""

@@ -1,0 +1,160 @@
+@font-face {font-family: 'twaysky'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');}
+@font-face {font-family: 'TTTogether'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/TTTogetherA.woff') format('woff');}
+@font-face {font-family: 'KyoboHand'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');}
+@font-face {font-family: 'Cafe24SsurroundAir'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+}
+
+#MBTI, #FOOD, #SONG, #DUMPLING, #PLAN {
+    background-image: url("Images/pink.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+}
+
+.siteLogo {
+    margin-top: 100px;
+    margin-left: 300px;
+    font-family: 'twaysky';
+}
+
+.bigLogo {
+    font-size: 40px;
+}
+
+.smallLogo {
+    font-size: 25px;
+}
+
+.myLink {
+    display: flex;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: 200px;
+}
+
+.sns {
+    width: 50px;
+    height: 50px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.leftMain {
+    margin-top: 85px;
+    margin-left: 300px;
+    margin-bottom: 85px;
+    width: 500px;
+    height: 300px;
+}
+
+.characteristic {
+    font-family: 'TTTogether';
+    font-size: 75px;
+}
+
+.description {
+    font-family: 'Cafe24SsurroundAir';
+    font-size: 20px;
+}
+
+.rightMain {
+    margin-left: 50px;
+    font-size: 80px;
+    text-align: center;
+}
+
+.dotNav {
+    margin-left: auto;
+}
+
+.circles {
+    display: block;
+    margin-right: 70px;
+    margin-bottom: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.scroll {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 150px;
+    height: 100px;
+}
+
+.scrollImage {
+    width: 50px;
+    height: 50px;
+}
+
+.scrollText {
+    font-family: 'KyoboHand';
+    font-size: 25px;
+}
+
+#FOOTER {
+    background-image: url("Images/gray.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#lastSection {
+    display: flex;
+    align-items: center;
+}
+
+#leftFooter {
+    margin-top: 100px;
+    margin-left: 300px;
+    font-family: 'TTTogether';
+    font-size: 25px;
+}
+
+#site {
+    display: flex;
+    margin-bottom: 30px;
+    width: 100px;
+    height: 45px;
+}
+
+#infoBox {
+    margin-top: 100px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.emoticon {
+    width: 50px;
+    height: 50px;
+}
+
+.infotext {
+    margin-left: 30px;
+}
+
+
+

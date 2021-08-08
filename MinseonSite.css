@@ -10,6 +10,11 @@ body {
     margin: 0 auto;
 }
 
+a:link, a:visited, a:active, a:hover {
+    text-decoration: none;
+    color: black;
+}
+
 #MBTI, #FOOD, #SONG, #DUMPLING, #PLAN {
     background-image: url("Images/pink.jpg");
     background-repeat: no-repeat;
@@ -154,6 +159,13 @@ body {
 
 .infotext {
     margin-left: 30px;
+}
+
+#lastscroll {
+    margin-top: 200px;
+    margin-left: 400px;
+    width: 70px;
+    height: 70px;
 }
 
 

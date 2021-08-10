@@ -81,10 +81,57 @@ a:link, a:visited, a:active, a:hover {
 }
 
 .rightMain {
+    text-align: center;
     margin-left: 50px;
     font-size: 80px;
-    text-align: center;
+    width: 550px;
+    height: 300px;
+    overflow: auto;
 }
+
+.esfjFeature {
+    text-align: left;
+    font-family: 'Cafe24SsurroundAir';
+    font-size: 20px;
+}
+
+.delicious {
+    border-radius: 20px;
+    width: 400px;
+    height: 275px;
+}
+
+.hiphop {
+    background-color: lightslategray;
+    border-radius: 20px;
+    width: 500px;
+    height: 80px;
+}
+
+.mandus {
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+}
+
+.manduContents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vacationPlan {
+    text-align: left;
+    font-family: 'Cafe24SsurroundAir';
+    font-size: 20px;
+}
+
+.myPlan {
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+}
+
 
 .dotNav {
     margin-left: auto;

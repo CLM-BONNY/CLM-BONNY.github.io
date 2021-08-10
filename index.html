@@ -5,6 +5,7 @@
     <title>MS(╹ڡ╹ )</title>
     <link rel="shortcut icon" href="Images/dumpling.ico">
     <link rel="stylesheet" href="./MinseonSite.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.0.min.js" ></script>
     <script type="text/javascript" src="./MinseonSite.js"></script>
 </head>
 <body>
@@ -35,9 +36,9 @@
             </div>
         </div>
         <div class="rightMain">
-            <div class="mainText"><h  title="ESFJ특징">[ E͛ S͛ F͛ J͛ ]</h></div>
-            <div class="pop">
-                <table class="esfjFeature" onClick="window.open('https://socialspeaker.tistory.com/entry/ESFJ-%EC%9C%A0%ED%98%95-%ED%8A%B9%EC%A7%95-%EC%B4%9D%EC%A0%95%EB%A6%AC%ED%8C%A9%ED%8F%AD-%EC%9E%A5%EB%8B%A8%EC%A0%90-%EC%97%B0%EC%95%A0-%EA%B6%81%ED%95%A9-%EC%A7%81%EC%97%85-%EC%97%B0%EC%98%88%EC%9D%B8-%EA%B0%80%EC%83%81%EC%9D%B8%EB%AC%BC-MBTI-%EC%84%B1%EA%B2%A9-%EC%9C%A0%ED%98%95-%ED%85%8C%EC%8A%A4%ED%8A%B8%E2%80%8B')">
+            <div id="esfjText"><h title="ESFJ특징">[ E͛ S͛ F͛ J͛ ]</h></div>
+            <div id="esfjPop">
+                <table id="esfjFeature" onClick="window.open('https://socialspeaker.tistory.com/entry/ESFJ-%EC%9C%A0%ED%98%95-%ED%8A%B9%EC%A7%95-%EC%B4%9D%EC%A0%95%EB%A6%AC%ED%8C%A9%ED%8F%AD-%EC%9E%A5%EB%8B%A8%EC%A0%90-%EC%97%B0%EC%95%A0-%EA%B6%81%ED%95%A9-%EC%A7%81%EC%97%85-%EC%97%B0%EC%98%88%EC%9D%B8-%EA%B0%80%EC%83%81%EC%9D%B8%EB%AC%BC-MBTI-%EC%84%B1%EA%B2%A9-%EC%9C%A0%ED%98%95-%ED%85%8C%EC%8A%A4%ED%8A%B8%E2%80%8B')">
                     <tr><td>▶귀가 얇다.</td></tr>
                     <tr><td>▶역지사지를 잘한다.</td></tr>
                     <tr><td>▶남들 챙기는 것을 좋아한다. </td></tr>
@@ -97,17 +98,19 @@
             </div>
         </div>
         <div class="rightMain">
-            <h class="mainText" title="좋아하는 음식">[ F͛ O͛ O͛ D͛ ]</h>
-            <div class="pop">
-                <img class="delicious" title="만두" src="Images/dumpling.jpg" alt="만두">
-                <img class="delicious" title="잡채" src="Images/japchae.jpg" alt="잡채">
-                <img class="delicious" title="김치찌개" src="Images/kimchiStew.jpg" alt="김치찌개">
-                <img class="delicious" title="파스타" src="Images/pasta.jpg" alt="파스타">
-                <img class="delicious" title="삼겹살" src="Images/pork.jpg" alt="삼겹살">
-                <img class="delicious" title="연어덮밥" src="Images/salmon.jpg" alt="연어덮밥">
-                <img class="delicious" title="샤브샤브" src="Images/shabu.jpg" alt="샤브샤브">
-                <img class="delicious" title="텐동" src="Images/tendon.jpg" alt="텐동">
-                <img class="delicious" title="떡볶이" src="Images/tteokbokki.jpg" alt="떡볶이"/>
+            <h id="foodText" title="좋아하는 음식">[ F͛ O͛ O͛ D͛ ]</h>
+            <div id="foodPop">
+                <ul>
+                    <li><img class="delicious" title="만두" src="Images/dumpling.jpg" alt="만두"></li>
+                    <li><img class="delicious" title="잡채" src="Images/japchae.jpg" alt="잡채"></li>
+                    <li><img class="delicious" title="김치찌개" src="Images/kimchiStew.jpg" alt="김치찌개"></li>
+                    <li><img class="delicious" title="파스타" src="Images/pasta.jpg" alt="파스타"></li>
+                    <li><img class="delicious" title="삼겹살" src="Images/pork.jpg" alt="삼겹살"></li>
+                    <li><img class="delicious" title="연어덮밥" src="Images/salmon.jpg" alt="연어덮밥"></li>
+                    <li><img class="delicious" title="샤브샤브" src="Images/shabu.jpg" alt="샤브샤브"></li>
+                    <li><img class="delicious" title="텐동" src="Images/tendon.jpg" alt="텐동"></li>
+                    <li><img class="delicious" title="떡볶이" src="Images/tteokbokki.jpg" alt="떡볶이"/></li>
+                </ul>
             </div>
         </div>
         <nav class="dotNav">
@@ -160,19 +163,21 @@
             </div>
         </div>
         <div class="rightMain">
-            <div class="mainText" >
+            <div id="songText" >
                 <h title="플레이리스트">[ P͛ L͛ A͛ Y͛ ]</h><br>
                 <h title="플레이리스트">[ L͛ I͛ S͛ T͛ ]</h>
             </div>
-            <div class="pop">
-                <img onClick="window.open('https://youtu.be/6s9pKLqvjlw')" class="hiphop"title="록시땅" src="Images/loccitane.png" alt="록시땅">
-                <img onClick="window.open('https://youtu.be/XBuk8ullul4')" class="hiphop"title="1.2GB" src="Images/1.2GB.png" alt="1.2GB">
-                <img onClick="window.open('https://youtu.be/nY_uTgPz4sc')" class="hiphop" title="키보드" src="Images/keyboard.png" alt="키보드">
-                <img onClick="window.open('https://youtu.be/XerP3572Ng8')" class="hiphop" title="2000/90" src="Images/2000-90.png" alt="2000/90">
-                <img onClick="window.open('https://youtu.be/nzqgWX__KCU')" class="hiphop" title="EmptyHead" src="Images/empty-head.png" alt="EmptyHead">
-                <img onClick="window.open('https://youtu.be/ujWsKOGpSYQ')" class="hiphop" title="paranoid" src="Images/paranoid.png" alt="paranoid">
-                <img onClick="window.open('https://youtu.be/5UovAtWxIEU')" class="hiphop" title="별과꿈의이야기" src="Images/star-dream.png" alt="별과꿈의이야기">
-                <img onClick="window.open('https://youtu.be/ypi3OREsBNM')" class="hiphop" title="우리들이있었다" src="Images/we.png" alt="우리들이있었다">
+            <div id="over">
+                <div id="songPop">
+                    <img onClick="window.open('https://youtu.be/6s9pKLqvjlw')" class="hiphop"title="록시땅" src="Images/loccitane.png" alt="록시땅">
+                    <img onClick="window.open('https://youtu.be/XBuk8ullul4')" class="hiphop"title="1.2GB" src="Images/1.2GB.png" alt="1.2GB">
+                    <img onClick="window.open('https://youtu.be/nY_uTgPz4sc')" class="hiphop" title="키보드" src="Images/keyboard.png" alt="키보드">
+                    <img onClick="window.open('https://youtu.be/XerP3572Ng8')" class="hiphop" title="2000/90" src="Images/2000-90.png" alt="2000/90">
+                    <img onClick="window.open('https://youtu.be/nzqgWX__KCU')" class="hiphop" title="EmptyHead" src="Images/empty-head.png" alt="EmptyHead">
+                    <img onClick="window.open('https://youtu.be/ujWsKOGpSYQ')" class="hiphop" title="paranoid" src="Images/paranoid.png" alt="paranoid">
+                    <img onClick="window.open('https://youtu.be/5UovAtWxIEU')" class="hiphop" title="별과꿈의이야기" src="Images/star-dream.png" alt="별과꿈의이야기">
+                    <img onClick="window.open('https://youtu.be/ypi3OREsBNM')" class="hiphop" title="우리들이있었다" src="Images/we.png" alt="우리들이있었다">
+                </div>
             </div>
         </div>
         <nav class="dotNav">
@@ -225,8 +230,8 @@
             </div>
         </div>
         <div class="rightMain">
-            <h class="mainText" title="만두 관련 컨텐츠">[ M͛ A͛ N͛ D͛ U͛ ]</h>
-            <div class="pop">
+            <h id="manduText" title="만두 관련 컨텐츠">[ M͛ A͛ N͛ D͛ U͛ ]</h>
+            <div id="manduPop">
                 <div class="manduContents">
                     <img class="mandus" title="사이트타이틀로고" src="Images/manduSite.png" alt="사이트타이틀로고">
                     <img class="mandus" onClick="window.open('https://blog.naver.com/alstjs4739')" title="블로그이름 + 닉네임" src="Images/manduBlog.jpg" alt="만두블로그">
@@ -287,9 +292,9 @@
             </div>
         </div>
         <div class="rightMain">
-            <h class="mainText" title="방학 계획">[ P͛ L͛ A͛ N͛ ]</h>
-            <div class="pop">
-                <table class="vacationPlan">
+            <h id="planText" title="방학 계획">[ P͛ L͛ A͛ N͛ ]</h>
+            <div id="planPop">
+                <table id="vacationPlan">
                     <tr><td>▶파이썬 알고리즘 : 계속</td></tr>
                     <tr><td>▶웹(프론트엔드) : 8월11일까지</td></tr>
                     <tr><td>▶파이썬 데이터분석 : 8월9일부터 8월24일까지</td></tr>
@@ -297,7 +302,7 @@
                     <tr><td>▶자바 앱 : 8월25일부터 9월7일까지</td></tr>
                     <tr><td>▶기타 : 파이썬 프로젝트, 웹(백엔드) 등</td></tr>
                 </table>
-                <img class="myPlan" title="방학계획" src="Images/vacation-plan.jpg" alt="방학계획">
+                <img id="myPlan" title="방학계획" src="Images/vacation-plan.jpg" alt="방학계획">
             </div>
         </div>
         <nav class="dotNav">

@@ -15,6 +15,10 @@ a:link, a:visited, a:active, a:hover {
     color: black;
 }
 
+ul {
+    list-style: none;
+}
+
 #MBTI, #FOOD, #SONG, #DUMPLING, #PLAN {
     background-image: url("Images/pink.jpg");
     background-repeat: no-repeat;
@@ -82,23 +86,35 @@ a:link, a:visited, a:active, a:hover {
 
 .rightMain {
     text-align: center;
-    margin-left: 50px;
+    margin-top: 105px;
+    margin-left: 30px;
     font-size: 80px;
     width: 550px;
     height: 300px;
-    overflow: auto;
+    overflow: hidden;
 }
 
-.esfjFeature {
+#esfjPop, #foodPop, #songPop, #manduPop, #vacationPlan, #myPlan {
+    display: none;
+}
+
+#esfjFeature {
     text-align: left;
     font-family: 'Cafe24SsurroundAir';
     font-size: 20px;
 }
 
 .delicious {
+    padding: 0px;
     border-radius: 20px;
     width: 400px;
-    height: 275px;
+    height: 220px;
+}
+
+#over {
+    width: 550px;
+    height: 300px;
+    overflow: auto;
 }
 
 .hiphop {
@@ -110,8 +126,8 @@ a:link, a:visited, a:active, a:hover {
 
 .mandus {
     border-radius: 15px;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
 }
 
 .manduContents {
@@ -120,18 +136,17 @@ a:link, a:visited, a:active, a:hover {
     justify-content: center;
 }
 
-.vacationPlan {
+#vacationPlan {
     text-align: left;
     font-family: 'Cafe24SsurroundAir';
     font-size: 20px;
 }
 
-.myPlan {
+#myPlan {
     border-radius: 20px;
     width: 400px;
-    height: 400px;
+    height: 275px;
 }
-
 
 .dotNav {
     margin-left: auto;

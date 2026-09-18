@@ -44,7 +44,6 @@
   main > .section, .closing { min-height:calc(100svh - 76px); }
 }
 html { scroll-padding-top:76px; }
-main > [id], #credentials { scroll-margin-top:76px; }
 @media (min-width:1000px) {
   .hero { min-height:calc(100vh - 76px) !important; }
   .hero, .section, .closing { padding-top:6rem !important; padding-bottom:6rem !important; }

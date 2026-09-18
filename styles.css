@@ -37,6 +37,11 @@
 .project-card .project-link + .stack { margin-top:1rem; }
 .accent-sand .project-link { color:var(--ink); }
 .closing > div { display:flex; flex-wrap:wrap; gap:.9rem; }
+@media (min-width:761px) {
+  .feature-card { grid-template-columns:200px minmax(0,1fr) 280px; gap:3rem; }
+  .feature-aside { gap:.7rem; padding-top:.25rem; }
+  .feature-aside span { padding:.48rem .82rem; font-size:.84rem; line-height:1.2; }
+}
 @media (min-width:1000px) {
   .hero { min-height:calc(100vh - 76px) !important; }
   .hero, .section, .closing { padding-top:6rem !important; padding-bottom:6rem !important; }

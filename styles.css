@@ -42,8 +42,14 @@
   .feature-aside { gap:.7rem; padding-top:.25rem; margin-left:-1.5rem; }
   .feature-aside span { padding:.48rem .82rem; font-size:.84rem; line-height:1.2; }
   main > .section, .closing { min-height:calc(100svh - 76px); }
+  .capabilities, .closing { display:flex; flex-direction:column; justify-content:center; }
 }
 html { scroll-padding-top:76px; }
+@media (max-width:760px) {
+  .site-header { height:auto; min-height:76px; padding-top:.75rem; padding-bottom:.75rem; flex-direction:column; align-items:flex-start; gap:.55rem; }
+  nav { width:100%; justify-content:space-between; gap:0; font-size:.72rem; }
+  html { scroll-padding-top:108px; }
+}
 @media (min-width:1000px) {
   .hero { min-height:calc(100vh - 76px) !important; }
   .hero, .section, .closing { padding-top:6rem !important; padding-bottom:6rem !important; }

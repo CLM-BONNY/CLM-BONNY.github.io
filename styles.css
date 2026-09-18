@@ -39,9 +39,12 @@
 .closing > div { display:flex; flex-wrap:wrap; gap:.9rem; }
 @media (min-width:761px) {
   .feature-card { grid-template-columns:200px minmax(0,1fr) 280px; gap:3rem; }
-  .feature-aside { gap:.7rem; padding-top:.25rem; }
+  .feature-aside { gap:.7rem; padding-top:.25rem; margin-left:-1.5rem; }
   .feature-aside span { padding:.48rem .82rem; font-size:.84rem; line-height:1.2; }
+  main > .section, .closing { min-height:calc(100svh - 76px); }
 }
+html { scroll-padding-top:76px; }
+main > [id], #credentials { scroll-margin-top:76px; }
 @media (min-width:1000px) {
   .hero { min-height:calc(100vh - 76px) !important; }
   .hero, .section, .closing { padding-top:6rem !important; padding-bottom:6rem !important; }

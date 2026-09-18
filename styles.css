@@ -38,9 +38,10 @@
 .accent-sand .project-link { color:var(--ink); }
 .closing > div { display:flex; flex-wrap:wrap; gap:.9rem; }
 @media (min-width:1000px) {
-  .hero { min-height:760px !important; }
+  .hero { min-height:calc(100vh - 76px) !important; }
   .hero, .section, .closing { padding-top:6rem !important; padding-bottom:6rem !important; }
   h1 { max-width:1400px !important; font-size:clamp(3rem,4.2vw,4.8rem) !important; }
   .section-heading { max-width:1100px !important; }
   .closing h2 { max-width:1180px !important; }
 }
+h1, h2, h3, p, li, .project-index, .stack, .signal-grid span, .feature-aside span { word-break:keep-all; overflow-wrap:break-word; }
